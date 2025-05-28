@@ -2,6 +2,17 @@
 
 <center><img src = "awan.ico"></center>
 
+## tutorial tanpa xampp
+
+1) kunjungi [tags](https://github.com/Royhtml/php-server/releases)
+2) download file .exe , .ico , and php.rar
+3) open file php server V1.exe
+4) complite file access
+5) exstrak file php.rar
+6) Copy patch C:\Users\User\Downloads\php\php\php.exe
+7) paste file directory php patch
+8) enjoyed run file
+
 ## video tutorial
 [tutorials penggunaan](https://www.tiktok.com/@royhtml/video/7509367246628621624?is_from_webapp=1&sender_device=pc&web_id=7489705398321759751)
 ## Daftar Isi
