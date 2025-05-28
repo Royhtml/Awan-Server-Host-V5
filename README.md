@@ -4,6 +4,8 @@
 
 ## tutorial tanpa xampp
 
+<img src = "instalasi.gif">
+
 1) kunjungi [tags](https://github.com/Royhtml/php-server/releases)
 2) download file .exe , .ico , and php.rar
 3) open file php server V1.exe
