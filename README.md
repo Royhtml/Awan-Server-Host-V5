@@ -9,7 +9,7 @@
 3) open file php server V1.exe
 4) complite file access
 5) exstrak file php.rar
-6) Copy patch C:\Users\User\Downloads\php\php\php.exe
+6) Copy patch ``C:\Users\User\Downloads\php\php\php.exe``
 7) paste file directory php patch
 8) enjoyed run file
 
