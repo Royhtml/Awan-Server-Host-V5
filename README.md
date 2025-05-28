@@ -2,6 +2,8 @@
 
 <center><img src = "awan.ico"></center>
 
+## video tutorial
+[tutorials penggunaan](https://www.tiktok.com/@royhtml/video/7509367246628621624?is_from_webapp=1&sender_device=pc&web_id=7489705398321759751)
 ## Daftar Isi
 1. [Persyaratan Sistem](#persyaratan-sistem)
 2. [Pilihan Server PHP](#pilihan-server-php)
