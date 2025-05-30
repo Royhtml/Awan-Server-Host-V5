@@ -1,4 +1,4 @@
-# PHP Server Hosting Offline (Tanpa Node.js)
+# Awan Server Hosting Offline (Tanpa Node.js)
 
 <center><img src = "awan.ico"></center>
 
