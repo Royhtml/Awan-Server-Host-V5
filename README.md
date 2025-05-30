@@ -7,6 +7,22 @@
 
 # 📦 Panduan Lengkap Pemasangan Patch & Penggunaan `php server V2.exe` Tanpa XAMPP
 
+<img src = "Desain tanpa judul (1).gif">
+
+### Patch install 
+1. `Apache Running Patch :`
+
+  `C:\Users\User\Desktop\Server Awan\apache\bin\httpd.exe`
+  `C:\Users\User\Desktop\Server Awan\apache\conf\httpd.conf`
+
+2. `MySQL Running Patch :`
+
+  `C:\Users\User\Desktop\Server Awan\mysql\bin\mysqld.exe`
+
+3. `PHP MY ADMIN`
+
+   `C:\Users\User\Desktop\Server Awan\php\php.exe`
+   
 ---
 
 ## 📑 Daftar Isi
