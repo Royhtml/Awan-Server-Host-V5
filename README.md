@@ -10,6 +10,10 @@
 
 <img src = "Desain tanpa judul (1).gif">
 
+## tutorial pemasangan 
+
+<a href ="https://www.tiktok.com/@royhtml/video/7510226542241369349?is_from_webapp=1&sender_device=pc&web_id=7489705398321759751">Klik Video Tutorials Pemasangan</a>
+
 ## Patch install 
 
 ### 1. Apache Running Patch :
