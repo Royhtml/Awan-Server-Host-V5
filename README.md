@@ -11,7 +11,7 @@
 
 ## Patch install 
 
-### 1. `Apache Running Patch :`
+### 1. Apache Running Patch :
 
 ## paste apache 1
   `C:\Users\User\Desktop\Server Awan\apache\bin\httpd.exe`
@@ -19,12 +19,12 @@
 ## paste apache 2
   `C:\Users\User\Desktop\Server Awan\apache\conf\httpd.conf`
 
-### 2. `MySQL Running Patch :`
+### 2. MySQL Running Patch :
 
 ## paste Mysql 
   `C:\Users\User\Desktop\Server Awan\mysql\bin\mysqld.exe`
 
-### 3. `PHP MY ADMIN`
+### 3. PHP MY ADMIN
 
 ## paste My php Admin
    `C:\Users\User\Desktop\Server Awan\php\php.exe`
