@@ -1,7 +1,8 @@
 # Awan Server Hosting Offline (Tanpa Node.js)
 
-<center><img src = "awan.ico"></center>
-
+<p align="center">
+  <img src="awan.ico" alt="Logo" />
+</p>
 
 ---
 
