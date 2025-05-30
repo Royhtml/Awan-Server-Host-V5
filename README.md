@@ -208,7 +208,7 @@ Jika Anda ingin, saya bisa bantu:
 
 * Dwi Bakti N Dev
 
-## tutorial tanpa xampp
+## tutorial tanpa xampp V1
 
 <img src = "instalasi.gif">
 
