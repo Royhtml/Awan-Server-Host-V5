@@ -2,6 +2,212 @@
 
 <center><img src = "awan.ico"></center>
 
+
+---
+
+# 📦 Panduan Lengkap Pemasangan Patch & Penggunaan `php server V2.exe` Tanpa XAMPP
+
+---
+
+## 📑 Daftar Isi
+
+1. [Pendahuluan](#pendahuluan)
+2. [Penjelasan `php server V2.exe`](#penjelasan-php-server-v2exe)
+3. [Persiapan Sebelum Instalasi](#persiapan-sebelum-instalasi)
+4. [Langkah-langkah Pemasangan Patch](#langkah-langkah-pemasangan-patch)
+5. [Penggunaan MySQL dan phpMyAdmin Tanpa XAMPP](#penggunaan-mysql-dan-phpmyadmin-tanpa-xampp)
+6. [Pengujian Server](#pengujian-server)
+7. [Troubleshooting](#troubleshooting)
+8. [FAQ](#faq)
+9. [Lampiran Gambar & Struktur Folder](#lampiran-gambar--struktur-folder)
+
+---
+
+## 🧾 Pendahuluan
+
+Panduan ini menjelaskan cara memasang patch aplikasi dan menjalankan server lokal PHP menggunakan `php server V2.exe` tanpa XAMPP. Anda juga akan belajar menjalankan MySQL dan phpMyAdmin dari folder lokal.
+
+---
+
+## ⚙️ Penjelasan `php server V2.exe`
+
+`php server V2.exe` adalah server PHP portabel untuk Windows. Tidak perlu menginstal PHP, Apache, atau XAMPP.
+
+### ✅ Kelebihan:
+
+* **Portable:** Bisa dijalankan langsung dari folder atau flashdisk.
+* **Simple:** Klik 2x langsung jalan.
+* **Ringan:** Tidak banyak konsumsi resource.
+* **Multiversi:** Bisa diganti versi PHP-nya sesuai kebutuhan.
+
+---
+
+## 📦 Persiapan Sebelum Instalasi
+
+### 🗂 File yang dibutuhkan:
+
+* `php server V2.exe`
+* Folder aplikasi web (berisi `index.php`)
+* File Patch (`.zip`, `.rar`, atau folder)
+* MySQL portabel (`mysqld.exe`)
+* phpMyAdmin (ekstrak dalam folder `htdocs/phpmyadmin`)
+
+### 💻 Spesifikasi sistem:
+
+* Windows 7 ke atas (32/64 bit)
+* Tidak ada konflik port 8080 atau 3306
+
+---
+
+## 🛠️ Langkah-langkah Pemasangan Patch
+
+### 1. Ekstrak File Patch
+
+Ekstrak patch ke dalam folder aplikasi:
+
+```bash
+Klik kanan → Extract Here
+```
+
+**Ilustrasi:**
+
+```
+📁 AplikasiWeb/
+├── index.php
+├── config.php
+├── ...
+📁 Patch/
+```
+
+### 2. Salin & Timpa File Lama
+
+Jika muncul peringatan, pilih **Replace All / Timpa File**.
+
+### 3. Jalankan `php server V2.exe`
+
+Klik dua kali file `php server V2.exe`, akan muncul jendela command prompt:
+
+```plaintext
+PHP Development Server started at http://localhost:8080
+```
+
+### 4. Akses Lewat Browser
+
+Buka `http://localhost:8080` → aplikasi akan muncul.
+
+---
+
+## 💾 Penggunaan MySQL dan phpMyAdmin Tanpa XAMPP
+
+### 1. Jalankan MySQL Portabel
+
+Gunakan file patch dari Anda:
+
+```plaintext
+C:\Users\User\Desktop\Server Awan\mysql\bin\mysqld.exe
+```
+
+**Langkah:**
+
+* Klik dua kali `mysqld.exe`
+* MySQL akan aktif di `localhost:3306`
+
+### 2. Konfigurasi `config.inc.php` phpMyAdmin
+
+Di folder `phpmyadmin`, buka `config.inc.php`, ubah:
+
+```php
+$cfg['Servers'][$i]['host'] = '127.0.0.1';
+$cfg['Servers'][$i]['port'] = '3306';
+```
+
+### 3. Akses phpMyAdmin
+
+Jalankan `php server V2.exe` di folder utama yang juga berisi `phpmyadmin`, lalu buka:
+
+```
+http://localhost:8080/phpmyadmin
+```
+
+---
+
+## 🧪 Pengujian Server
+
+✅ Pastikan:
+
+* File `index.php` ada di root folder.
+* Tidak ada error di command prompt.
+* Jika butuh port lain:
+
+  ```bash
+  php server V2.exe 8000
+  ```
+
+---
+
+## 🧯 Troubleshooting
+
+| Masalah                 | Solusi                                                     |
+| ----------------------- | ---------------------------------------------------------- |
+| Port 8080 dipakai       | Jalankan dengan port lain, contoh `php server V2.exe 8001` |
+| Server tidak tampil     | Cek file `index.php`, pastikan ada di root                 |
+| MySQL tidak konek       | Pastikan `mysqld.exe` aktif dan port 3306 tidak konflik    |
+| phpMyAdmin error        | Periksa `config.inc.php`, username/password database       |
+| Antivirus blokir server | Tambahkan `php server V2.exe` ke whitelist                 |
+
+---
+
+## ❓ FAQ
+
+**Q: Perlu XAMPP?**
+A: Tidak perlu. Semuanya dijalankan langsung via `.exe`.
+
+**Q: Bisa di-flashdisk?**
+A: Ya, semua tool portabel dan bisa dipindah-pindah.
+
+**Q: Apa default port-nya?**
+A: `php server V2.exe` → 8080, `mysqld.exe` → 3306
+
+**Q: Bagaimana menghentikan server?**
+A: Tutup jendela command prompt.
+
+---
+
+## 🖼️ Lampiran Gambar & Struktur Folder
+
+### 💻 Struktur Folder Ideal
+
+```
+📁 Server Awan/
+├── php server V2.exe
+├── index.php
+├── Patch/
+├── phpmyadmin/
+│   └── config.inc.php
+├── mysql/
+│   └── bin/
+│       └── mysqld.exe
+```
+
+### 📸 Contoh Tampilan CMD Saat Server Aktif
+
+```
+C:\Server Awan> php server V2.exe
+PHP 8.x.x Development Server started at http://localhost:8080
+```
+
+---
+
+Jika Anda ingin, saya bisa bantu:
+
+* Menyusun semua file patch ke dalam satu paket .zip
+* Menambahkan file konfigurasi otomatis (`start_server.bat`)
+* Menyediakan template `config.inc.php` yang siap pakai
+
+## developer
+
+* Dwi Bakti N Dev
+
 ## tutorial tanpa xampp
 
 <img src = "instalasi.gif">
