@@ -12,7 +12,7 @@
 
 ## tutorial pemasangan 
 
-<a href ="https://www.tiktok.com/@royhtml/video/7510226542241369349?is_from_webapp=1&sender_device=pc&web_id=7489705398321759751">Klik Video Tutorials Pemasangan</a>
+<a href ="https://www.tiktok.com/@royhtml/video/7510495220509822264?is_from_webapp=1&sender_device=pc&web_id=7489705398321759751">Klik Video Tutorials Pemasangan</a>
 
 ## Patch install 
 
