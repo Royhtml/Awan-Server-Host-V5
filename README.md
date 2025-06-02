@@ -7,7 +7,7 @@
 ---
 # 📦 Awan Server GUI 3.0
 
-<img src = "" width = "100%" height = "100%">
+<img src = "Screenshot 2025-06-02 192514.png" width = "100%" height = "100%">
 
 
 # 📦 Panduan Lengkap Pemasangan Patch & Penggunaan `php server V2.exe` Tanpa XAMPP
