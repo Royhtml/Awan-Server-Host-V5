@@ -9,6 +9,8 @@
 
 <img src = "Screenshot 2025-06-02 192514.png" width = "100%" height = "100%">
 
+<a href ="https://www.tiktok.com/@royhtml/video/7511316331019390264?is_from_webapp=1&sender_device=pc&web_id=7489705398321759751">Klik Video Tutorials Penggunaan 3.0</a>
+
 
 # 📦 Panduan Lengkap Pemasangan Patch & Penggunaan `php server V2.exe` Tanpa XAMPP
 
