@@ -4,6 +4,305 @@
   <img src="awan.ico" alt="Logo" />
 </p>
 
+<!--StartFragment--><html><head></head><body><h1>Awan Server Host 4.0 - Enhanced</h1>
+<p>Awan Server adalah aplikasi GUI berbasis Python (Tkinter) yang memudahkan pengguna untuk mengelola berbagai layanan server lokal dari satu tempat. Aplikasi ini cocok untuk developer web yang menggunakan PHP, Laravel, Apache, MariaDB, FTP Server, dan sebagainya.</p>
+<hr>
+<h2>:rocket: Fitur Utama</h2>
+
+Komponen | Fungsi
+-- | --
+PHP Server | Menjalankan server development PHP lokal
+Apache | Menyalakan server Apache HTTP
+MariaDB | Start/Stop database MariaDB atau MySQL
+FileZilla | FTP Server - mengelola koneksi file transfer
+Mercury | Mail Server - layanan pengiriman email lokal
+Tomcat | Servlet Java menggunakan Apache Tomcat
+Laravel | Manajemen project Laravel dan Composer
+Laragon | Start/Stop Laragon jika terinstal
+Tools | Akses cepat ke Adminer, phpMyAdmin, XAMPP, Shell, dll
+Terminal | Akses langsung ke CMD, PowerShell, Git Bash, dan MySQL Shell
+
+
+<hr>
+<h2>🧾 Deskripsi Umum Aplikasi <code inline="">Awan Server.py</code></h2>
+<p><code inline="">Awan Server.py</code> adalah <strong>aplikasi GUI</strong> berbasis <strong>Tkinter</strong> yang memudahkan pengguna untuk mengelola berbagai layanan server lokal dari satu tempat. Aplikasi ini mendukung:</p>
+<ul>
+<li>
+<p>PHP Development Server</p>
+</li>
+<li>
+<p>Apache HTTP Server</p>
+</li>
+<li>
+<p>MariaDB/MySQL Server</p>
+</li>
+<li>
+<p>FileZilla FTP Server</p>
+</li>
+<li>
+<p>Mercury Mail Server</p>
+</li>
+<li>
+<p>Apache Tomcat</p>
+</li>
+<li>
+<p>Laragon</p>
+</li>
+<li>
+<p>Laravel (via Composer)</p>
+</li>
+<li>
+<p>Terminal commands (CMD, PowerShell, Git Bash)</p>
+</li>
+<li>
+<p>Tools seperti Adminer, phpMyAdmin, XAMPP control</p>
+</li>
+</ul>
+<hr>
+<html><head></head><body><p>Berikut adalah <strong>penjelasan lengkap</strong>, <strong>penggunaan</strong>, serta <strong>flowchart dan tata cara penggunaan aplikasi</strong> dari file <code inline="">Awan Server.py</code>, yang merupakan aplikasi GUI berbasis Python untuk mengelola berbagai layanan server:</p>
+
+             +---------------------------+
+             |  Jalankan Aplikasi Python |
+             +------------+--------------+
+                          |
+                          v
+            +-------------+--------------+
+            |   Load Konfigurasi JSON    |
+            +-------------+--------------+
+                          |
+                          v
+         +-------------------------------+
+         |  Tampilkan GUI (Semua Tab)    |
+         +-------------------------------+
+                          |
+                          v
+         +-------------------------------+
+         | Pengguna Memilih Tab Server   |
+         +-------------------------------+
+                          |
+         +-------------------------------+
+         | Klik Start → Jalankan Server  |
+         | via subprocess.Popen()        |
+         +-------------------------------+
+                          |
+         +-------------------------------+
+         | Log Output + Update Status UI |
+         +-------------------------------+
+
+
+<h2>🎯 Tujuan dan Fungsi Utama</h2>
+
+Komponen | Fungsi
+-- | --
+PHP Tab | Menjalankan PHP built-in server lokal
+Apache Tab | Start/Stop server Apache HTTP
+MariaDB Tab | Menjalankan MySQL/MariaDB server
+FileZilla Tab | Start/Stop layanan FTP
+Mercury Tab | Menjalankan layanan email server
+Tomcat Tab | Menjalankan Apache Tomcat (Java Servlet)
+Laravel Tab | Generate project Laravel, run dev server
+Terminal Tab | Shortcut ke terminal CMD, PowerShell, Git
+Tools Tab | Alat bantu: edit php.ini, buka Adminer/phpMyAdmin/XAMPP
+
+
+<hr>
+<h2>📁 File Konfigurasi</h2>
+<ul>
+<li>
+<p><code inline="">server_host_config.json</code>: tempat menyimpan path ke server (PHP, Apache, dsb.)</p>
+</li>
+</ul>
+<hr>
+<h2>🔐 Catatan Keamanan</h2>
+<ul>
+<li>
+<p>Pastikan port yang dipilih tidak konflik (misal PHP di 8000, Apache di 80)</p>
+</li>
+<li>
+<p>Gunakan antivirus/firewall yang mendukung aktivitas localhost</p>
+</li>
+</ul>
+<hr>
+</body>
+</html>
+<html>
+<html>
+<body>
+<hr>
+<h2>:thought_balloon: Kelebihan Awan Server</h2>
+<ul>
+<li>
+<p>Antarmuka tunggal untuk semua layanan</p>
+</li>
+<li>
+<p>Fleksibel: bisa menggunakan XAMPP, Laragon, atau path mandiri</p>
+</li>
+<li>
+<p>Support Laravel &amp; Composer langsung dari GUI</p>
+</li>
+<li>
+<p>Tampilan sederhana namun lengkap</p>
+</li>
+<li>
+<p>Bisa digunakan tanpa harus buka CMD manual</p>
+</li>
+</ul>
+<hr>
+<h2>:scroll: Lisensi</h2>
+<p>Awan Server 4.0 dikembangkan oleh <code inline="">Dwi Bakti N Dev</code>. Bebas digunakan untuk tujuan pembelajaran dan pengembangan. Tidak disarankan untuk digunakan di server produksi.</p>
+<hr>
+<h2>:handshake: Kontribusi</h2>
+<p>Pull request terbuka untuk perbaikan, UI redesign, atau integrasi layanan tambahan seperti Docker atau PostgreSQL. Silakan fork dan bantu kembangkan!</p>
+<hr>
+<h2>:mailbox_with_mail: Kontak</h2>
+<p>Hubungi pengembang melalui:</p>
+<ul>
+<li>
+<p>Email: <code inline="">dwibaktindev@example.com</code></p>
+</li>
+<li>
+<p>GitHub: <a href="https://github.com/dwibaktindev">github.com/dwibaktindev</a></p>
+</li>
+</ul>
+<hr>
+<blockquote>
+<p>Dibuat dengan cinta untuk developer Indonesia. 🇮🇩</p>
+</blockquote></body></html><!--EndFragment-->
+</body>
+</html># Awan Server Host 4.0 - Enhanced
+
+Awan Server adalah aplikasi GUI berbasis Python (Tkinter) yang memudahkan pengguna untuk mengelola berbagai layanan server lokal dari satu tempat. Aplikasi ini cocok untuk developer web yang menggunakan PHP, Laravel, Apache, MariaDB, FTP Server, dan sebagainya.
+
+---
+
+## \:rocket: Fitur Utama
+
+| Komponen   | Fungsi                                                       |
+| ---------- | ------------------------------------------------------------ |
+| PHP Server | Menjalankan server development PHP lokal                     |
+| Apache     | Menyalakan server Apache HTTP                                |
+| MariaDB    | Start/Stop database MariaDB atau MySQL                       |
+| FileZilla  | FTP Server - mengelola koneksi file transfer                 |
+| Mercury    | Mail Server - layanan pengiriman email lokal                 |
+| Tomcat     | Servlet Java menggunakan Apache Tomcat                       |
+| Laravel    | Manajemen project Laravel dan Composer                       |
+| Laragon    | Start/Stop Laragon jika terinstal                            |
+| Tools      | Akses cepat ke Adminer, phpMyAdmin, XAMPP, Shell, dll        |
+| Terminal   | Akses langsung ke CMD, PowerShell, Git Bash, dan MySQL Shell |
+
+---
+
+## \:gear: Instalasi dan Menjalankan Aplikasi
+
+### 1. Persiapan
+
+* Pastikan Python 3.x telah terinstal
+* Gunakan Windows (support `subprocess.CREATE_NO_WINDOW`)
+
+### 2. Jalankan Aplikasi
+
+```bash
+python "Awan Server.py"
+```
+
+---
+
+## \:bookmark\_tabs: Struktur Antarmuka (Tabs)
+
+* **PHP Server**: Jalankan built-in server PHP
+* **Apache**: Kelola Apache HTTP Server
+* **MariaDB**: Database server lokal
+* **FileZilla**: FTP server interface
+* **Mercury**: SMTP dan POP3 lokal
+* **Tomcat**: Server Java Servlet
+* **Laravel**: Tooling Laravel (via Composer)
+* **Laragon**: Shortcut jika Laragon sudah terinstal
+* **Tools**: Adminer, phpMyAdmin, dll
+* **Terminal**: CMD, PowerShell, Git Bash, MySQL
+
+---
+
+## \:computer: Cara Penggunaan
+
+1. Jalankan aplikasi.
+2. Pilih tab layanan server (misal: PHP).
+3. Isi konfigurasi path ke executable (php.exe, httpd.exe, dll).
+4. Klik **Start** untuk menjalankan server.
+5. Status dan log akan tampil di bagian bawah.
+6. Klik **Open Browser** untuk membuka localhost.
+7. Gunakan tab **Tools** atau **Terminal** sesuai kebutuhan tambahan.
+
+---
+
+## \:file\_folder: File Konfigurasi
+
+Aplikasi menyimpan path ke executable dalam file:
+
+```
+server_host_config.json
+```
+
+Contoh isi:
+
+```json
+{
+  "paths": {
+    "php": "C:\\xampp\\php\\php.exe",
+    "apache": "C:\\xampp\\apache\\bin\\httpd.exe"
+  }
+}
+```
+
+---
+
+## \:bar\_chart: Perbandingan XAMPP vs Laragon vs Laravel Dev Server
+
+| Fitur            | XAMPP                    | Laragon                      | Laravel Dev Server      |
+| ---------------- | ------------------------ | ---------------------------- | ----------------------- |
+| Web Server       | Apache                   | Apache / Nginx               | Built-in PHP server     |
+| Database         | MariaDB                  | MariaDB / MySQL / PostgreSQL | Harus setup manual      |
+| UI Panel         | Ya (XAMPP Control Panel) | Ya (Modern Panel)            | Tidak ada               |
+| Virtual Host     | Sulit konfigurasi        | Otomatis (domain.test)       | Harus konfigurasi DNS   |
+| Composer Support | Manual install           | Terintegrasi                 | Wajib terinstal         |
+| Laravel Support  | Butuh setup              | Sangat mudah                 | Native                  |
+| Kecepatan        | Standar                  | Sangat cepat                 | Cepat (dev server)      |
+| Sistem Operasi   | Windows                  | Windows                      | Cross-platform          |
+| Cocok Untuk      | Pemula / Stack klasik    | Web dev modern & Laravel     | Dev Laravel skala kecil |
+
+---
+
+## \:thought\_balloon: Kelebihan Awan Server
+
+* Antarmuka tunggal untuk semua layanan
+* Fleksibel: bisa menggunakan XAMPP, Laragon, atau path mandiri
+* Support Laravel & Composer langsung dari GUI
+* Tampilan sederhana namun lengkap
+* Bisa digunakan tanpa harus buka CMD manual
+
+---
+
+## \:scroll: Lisensi
+
+Awan Server 4.0 dikembangkan oleh `Dwi Bakti N Dev`. Bebas digunakan untuk tujuan pembelajaran dan pengembangan. Tidak disarankan untuk digunakan di server produksi.
+
+---
+
+## \:handshake: Kontribusi
+
+Pull request terbuka untuk perbaikan, UI redesign, atau integrasi layanan tambahan seperti Docker atau PostgreSQL. Silakan fork dan bantu kembangkan!
+
+---
+
+## \:mailbox\_with\_mail: Kontak
+
+Hubungi pengembang melalui:
+
+* Email: `dwibaktindev@example.com`
+* GitHub: `DwiDevelopes and Royhtml`
+
+---
+
+> Dibuat dengan cinta untuk developer Indonesia. 🇮🇩
 ---
 # 📦 Awan Server GUI 3.0
 
