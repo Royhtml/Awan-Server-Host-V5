@@ -7,6 +7,9 @@
 <!--StartFragment--><html><head></head><body><h1>Awan Server Host 4.0 - Enhanced</h1>
 <p>Awan Server adalah aplikasi GUI berbasis Python (Tkinter) yang memudahkan pengguna untuk mengelola berbagai layanan server lokal dari satu tempat. Aplikasi ini cocok untuk developer web yang menggunakan PHP, Laravel, Apache, MariaDB, FTP Server, dan sebagainya.</p>
 <hr>
+
+  ## Tampilan GUI Design Profesional
+<img src = "Screenshot 2025-06-26 002943.png" width ="100%" height ="auto">
 <h2>:rocket: Fitur Utama</h2>
 
 Komponen | Fungsi
