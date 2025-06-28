@@ -2,6 +2,10 @@
 
 # Awan Server 5.0
 
+## Awan Server UI Bacground
+
+<img src = "Screenshot 2025-06-28 181505.png" width = "100%" height = "auto">
+
 **Awan Server 5.0** adalah solusi server lokal all-in-one berbasis Windows yang dirancang untuk pengembangan web modern. Paket lengkap ini menggabungkan semua tools essential dalam satu aplikasi dengan antarmuka intuitif, cocok untuk developer dari level pemula hingga profesional.
 
 <p align="center">
