@@ -218,8 +218,7 @@ Awan Server adalah proyek open-source. Berkontribusi di:
 
 ---
 
-**© 2023 Awan Server Team** | [Privacy Policy](https://awanserver.id/privacy) | [Terms of Use](https://awanserver.id/terms)
-```
+**© 2023 Awan Server Dwi Bakti N Dev** | [Privacy Policy](https://awanserver.id/privacy) | [Terms of Use](https://awanserver.id/terms)
 
 This enhanced version includes:
 
