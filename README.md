@@ -118,7 +118,8 @@ Panduan ini menjelaskan cara memasang patch aplikasi dan menjalankan server loka
 
 ## 🛠️ Langkah-langkah Pemasangan Patch
 
-### 1.
+### 1. PIP INSTALL AWAN
+### 2. AWAN
 
 
 ### 📋 Perbandingan Versi
@@ -178,10 +179,10 @@ Panduan ini menjelaskan cara memasang patch aplikasi dan menjalankan server loka
 - **pip install awan** support
 ---
 
-## Update Terbaru di Versi 5.0
+## Update Terbaru di Versi 9.0/8.0
 
 ### 🔥 Fitur Baru
-1.
+1. Lengkap dan super Complite
 ---
 
 ## Awan Server UI Bacground
