@@ -8,7 +8,7 @@
 
 
 ## 📦 Awan Server GUI 9.0
-<a href ="#">Klik License Agreement Python</a>
+<a href ="https://pypi.org/project/awan/#description">Klik License Agreement Python</a>
 
 ### 👩‍🎓 Kenapa Harus Pip install awan?
 
