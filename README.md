@@ -1,10 +1,188 @@
-# Awan Server Hosting Offline (Tanpa Node.js)
+# Update Versi 9.0 - Awan Server Hosting Offline (Tanpa Node.js)
 
-# Awan Server 5.0
+# Awan Server 9.0
 
 <p align="center">
   <img src="awan.ico" alt="Logo" />
 </p>
+
+
+## 📦 Awan Server GUI 9.0
+<a href ="#">Klik License Agreement Python</a>
+
+### 👩‍🎓 Kenapa Harus Pip install awan?
+
+1. Memudahkan penggunaan aplikasi
+2. Meringan kan aplikasi jika terlalu banyak penggunaan aplikasi
+3. Sangat mudah di aplikasikan dan juga ringan untuk di platform mana pun
+4. aplikasi tersebut di rancang untuk memberi kemudahan untuk programing
+5. dan memudahkan lainya masih banyak lagi yang lengkap dan ringan
+6. di sarankan harus install package dalam documentasi awan server 9.3.2 Format file ``xampp.rar``
+
+## Daftar Isi
+- Pip install awan
+- awan
+
+## 📦 Pip install awan
+
+```bash
+pip install awan
+```
+
+## 📦 awan
+
+```bash
+awan
+```
+
+---
+
+## 📦 Panduan Penggunaan
+
+### Memulai Project Baru
+1. Buka tab "Projects"
+2. Klik "New Project"
+3. Isi detail project:
+   - Project name
+   - Document root
+   - PHP version
+   - Database options
+4. Konfigurasi virtual host
+5. Mulai coding!
+
+### Manajemen Database
+```mermaid
+sequenceDiagram
+    User->>+phpMyAdmin: Login
+    phpMyAdmin->>+MySQL: Execute Query
+    MySQL-->>-phpMyAdmin: Return Results
+    phpMyAdmin-->>-User: Display Data
+```
+
+### Debugging
+- Xdebug configuration otomatis
+- Log viewer terintegrasi
+- Real-time monitoring resource
+
+---
+
+## 📑 Daftar Isi
+
+1. [Pendahuluan](#pendahuluan)
+2. [Penjelasan `php server V2.exe`](#penjelasan-php-server-v2exe)
+3. [Persiapan Sebelum Instalasi](#persiapan-sebelum-instalasi)
+4. [Langkah-langkah Pemasangan Patch](#langkah-langkah-pemasangan-patch)
+5. [Penggunaan MySQL dan phpMyAdmin Tanpa XAMPP](#penggunaan-mysql-dan-phpmyadmin-tanpa-xampp)
+6. [Pengujian Server](#pengujian-server)
+7. [Troubleshooting](#troubleshooting)
+8. [FAQ](#faq)
+9. [Lampiran Gambar & Struktur Folder](#lampiran-gambar--struktur-folder)
+
+---
+
+## 🧾 Pendahuluan
+
+Panduan ini menjelaskan cara memasang patch aplikasi dan menjalankan server lokal PHP menggunakan `php server V9.0` tanpa XAMPP. Anda juga akan belajar menjalankan MySQL dan phpMyAdmin dari folder lokal.
+
+---
+
+## ⚙️ Penjelasan `php server V9.0`
+
+`php server V9.0` adalah server PHP portabel untuk Windows. Tidak perlu menginstal PHP, Apache, atau XAMPP.
+
+### ✅ Kelebihan:
+
+* **Portable:** Bisa dijalankan langsung dari folder atau flashdisk.
+* **Simple:** Klik 2x langsung jalan.
+* **Ringan:** Tidak banyak konsumsi resource.
+* **Multiversi:** Bisa diganti versi PHP-nya sesuai kebutuhan.
+
+---
+
+## 📦 Persiapan Sebelum Instalasi
+
+### 🗂 File yang dibutuhkan:
+
+* `php server V9.0`
+* Folder aplikasi web (berisi `index.php`)
+* File Patch (`.zip`, `.rar`, atau folder)
+* MySQL portabel (`mysqld.exe`)
+* phpMyAdmin (ekstrak dalam folder `htdocs/phpmyadmin`)
+
+### 💻 Spesifikasi sistem:
+
+* Windows 7 ke atas (32/64 bit)
+* Tidak ada konflik port 8080 atau 3306
+
+---
+
+## 🛠️ Langkah-langkah Pemasangan Patch
+
+### 1.
+
+
+### 📋 Perbandingan Versi
+| Fitur               | v4.2 | v5.0 |
+|---------------------|------|------|
+| PHP Versi           | 3    | 7    |
+| Database Options    | 2    | 4    |
+| Startup Time       | 8s   | 3s   |
+| Project Isolation  | ❌   | ✅   |
+| Node.js Support    | ❌   | ✅   |
+
+---
+
+## 🧾 Deskripsi Umum Aplikasi <code inline="">Awan Server.py</code>
+
+<code inline="">Awan Server.py</code> adalah <strong>aplikasi GUI</strong> berbasis <strong>Tkinter</strong> yang memudahkan pengguna untuk mengelola berbagai layanan server lokal dari satu tempat. Aplikasi ini mendukung:
+
+
+### 🚀 Web Server Terintegrasi
+- Apache 2.4.x + Nginx 1.23.x (dapat di-switch)
+- Virtual Host otomatis
+- Reverse Proxy configuration
+- .htaccess support penuh
+
+### 🗃️ Database Management
+- MySQL 8.0 + MariaDB 10.6
+- phpMyAdmin 5.2
+- Database import/export one-click
+- User management terintegrasi
+
+### 📚 sequenceDiagram
+-    User->>+phpMyAdmin: Login
+-    phpMyAdmin->>+MySQL: Execute Query
+-    MySQL-->>-phpMyAdmin: Return Results
+-    phpMyAdmin-->>-User: Display Data
+
+### 🛠️ PHP Multi Versi
+- Dukungan PHP 5.6 hingga PHP 8.2
+- Switch versi PHP per-project
+- Ekstensi PHP yang dapat dikonfigurasi via GUI
+- Xdebug integration
+
+### ⚡ Fitur Tambahan
+- **Auto Start/Stop Services**
+- **File Manager** dengan editor code built-in
+- **SSL Otomatis** (menggunakan mkcert)
+- **Email Server** (MailHog untuk testing)
+- **Node.js 18.x** + npm
+- **Git Integration**   
+- **Composer** built-in
+- **Laravel** & **Laragon** built-in
+- **Terminal** & **Tools** built-in
+- **PHP 8.2** built-in
+- **PHP 8.1** built-in
+- **PHP 8.0** built-in
+- **Dll** & **Executable** support
+- **pip install awan** support
+---
+
+## Update Terbaru di Versi 5.0
+
+### 🔥 Fitur Baru
+1.
+---
 
 ## Awan Server UI Bacground
 
