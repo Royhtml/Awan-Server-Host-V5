@@ -9,6 +9,7 @@
 
 ## 📦 Awan Server GUI 9.0
 
+<img src ="awamm.png" width = "auto" height ="auto">
 
 ## 📦 pip install awan GUI 9.0
 
