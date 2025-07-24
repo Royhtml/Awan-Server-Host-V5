@@ -12,7 +12,8 @@
 
 ## 📦 pip install awan GUI 9.0
 
-<img src "Screenshot 2025-07-24 211858.png" width = "auto" height ="auto">
+<img src ="Screenshot 2025-07-24 211858.png" width = "auto" height ="auto">
+
 <a href ="https://pypi.org/project/awan/#description">Klik License Agreement Python</a>
 
 ### 👩‍🎓 Kenapa Harus Pip install awan?
