@@ -199,6 +199,111 @@ gantt
 © 2024 Awan Technologies. All Rights Reserved.
 
 
+# **Detail dan Setup Awan Server V5**
+
+Awan Server V5 adalah solusi komputasi awan (cloud) yang menawarkan fleksibilitas, skalabilitas, dan keamanan tinggi untuk berbagai kebutuhan bisnis dan pengembangan. Berikut adalah detail lengkap dan panduan setup untuk Awan Server V5.
+
+---
+
+## **1. Spesifikasi Awan Server V5**
+Awan Server V5 hadir dengan beberapa paket yang dapat disesuaikan dengan kebutuhan pengguna:
+
+| **Fitur**          | **Spesifikasi** |
+|---------------------|----------------|
+| **CPU**            | Intel Xeon / AMD EPYC (2-64 Core) |
+| **RAM**            | 4GB - 256GB DDR4 ECC |
+| **Storage**        | SSD NVMe (50GB - 4TB) |
+| **Bandwidth**      | 1Gbps - 10Gbps (Unmetered/Metered) |
+| **OS Support**     | Linux (Ubuntu, CentOS, Debian), Windows Server |
+| **Virtualisasi**   | KVM, OpenVZ, VMware |
+| **Kontrol Panel**  | cPanel, Plesk, Webmin (Opsional) |
+| **Backup**         | Snapshot, Auto Backup (Opsional) |
+| **DDoS Protection**| Cloudflare, Arbor Networks |
+
+---
+
+## **2. Keunggulan Awan Server V5**
+✅ **Performansi Tinggi** – SSD NVMe dan CPU Generasi Terbaru  
+✅ **Skalabilitas Mudah** – Upgrade resource tanpa downtime  
+✅ **Keamanan Tingkat Lanjut** – Firewall, DDoS Protection, dan isolasi jaringan  
+✅ **Full Root Access** – Kontrol penuh atas server  
+✅ **Layanan Managed/Unmanaged** – Dukungan teknis 24/7 untuk managed server  
+
+---
+
+## **3. Panduan Setup Awan Server V5**
+### **Langkah 1: Pemesanan Server**
+1. Akses dashboard penyedia layanan (misalnya, **AwanCloud**, **DigitalOcean**, atau **Linode**).  
+2. Pilih paket **Awan Server V5** sesuai kebutuhan.  
+3. Tentukan lokasi data center (Singapore, USA, Germany, dll).  
+4. Pilih OS (misalnya Ubuntu 22.04 LTS).  
+5. Konfirmasi pembayaran dan deploy server.  
+
+### **Langkah 2: Akses ke Server via SSH**
+- Untuk Linux/macOS:  
+  ```bash
+  ssh root@ip-server -p 22
+  ```
+- Untuk Windows (gunakan **PuTTY** atau **Windows Terminal**).  
+
+### **Langkah 3: Konfigurasi Dasar**
+1. **Update sistem**  
+   ```bash
+   apt update && apt upgrade -y
+   ```
+2. **Install Web Server (Nginx/Apache)**  
+   ```bash
+   apt install nginx -y
+   systemctl start nginx
+   ```
+3. **Install Database (MySQL/MariaDB)**  
+   ```bash
+   apt install mariadb-server -y
+   mysql_secure_installation
+   ```
+4. **Install PHP (Opsional)**  
+   ```bash
+   apt install php-fpm php-mysql -y
+   ```
+5. **Setup Firewall (UFW)**  
+   ```bash
+   apt install ufw -y
+   ufw allow 22,80,443
+   ufw enable
+   ```
+
+### **Langkah 4: Deploy Aplikasi**
+- Upload website menggunakan **SFTP/SCP** atau **Git**.  
+- Konfigurasi domain di **/etc/nginx/sites-available/**.  
+- Restart layanan:  
+  ```bash
+  systemctl restart nginx
+  ```
+
+---
+
+## **4. Rekomendasi Optimasi**
+- **Caching**: Install Redis atau Varnish.  
+- **Load Balancing**: Gunakan Nginx atau HAProxy.  
+- **Monitoring**: Gunakan **Netdata** atau **Prometheus + Grafana**.  
+- **Backup Otomatis**: Setup cron job untuk backup harian.  
+
+---
+
+## **5. Troubleshooting Umum**
+🔹 **SSH Gagal**: Periksa firewall dan pastikan port 22 terbuka.  
+🔹 **Website Down**: Cek log Nginx (`/var/log/nginx/error.log`).  
+🔹 **Kehabisan RAM**: Optimasi database atau upgrade RAM.  
+
+---
+
+### **Kesimpulan**
+Awan Server V5 adalah solusi cloud yang kuat dengan performa tinggi dan keamanan terjamin. Dengan setup yang tepat, server ini dapat mendukung website, aplikasi, dan layanan berbasis cloud dengan stabil.  
+
+🚀 **Siap mencoba?** Deploy Awan Server V5 sekarang dan rasakan perbedaannya!  
+
+Jika butuh bantuan, konsultasikan dengan tim support penyedia layanan Anda.
+
 This README includes:
 
 1. **Detailed version comparison** with technical specifications
@@ -215,6 +320,41 @@ The document is structured to:
 - Demonstrate compliance with industry standards
 - Provide clear upgrade paths
 - Protect intellectual property
+
+Berikut adalah perbandingan lengkap antara **Awan Server V5 (Full GUI Version)** dan **Awan versi mini via `pip install awan` (CLI Version)**:
+
+| Aspek                    | **Awan Server V5 (Full GUI)**                          | **Awan Mini (`pip install awan`)**                        |
+| ------------------------ | ------------------------------------------------------ | --------------------------------------------------------- |
+| **Platform**             | Windows (GUI Desktop)                                  | Cross-platform (Python CLI – Windows, Linux, macOS)       |
+| **Bahasa Pemrograman**   | Python (Tkinter GUI + batch integration)               | Python (pure CLI script)                                  |
+| **Penggunaan**           | Klik dan jalankan server lokal lengkap dengan GUI      | Jalankan perintah terminal untuk setup atau testing lokal |
+| **Instalasi**            | Manual via .zip atau .exe                              | Otomatis lewat `pip install awan`                         |
+| **Ukuran File**          | Besar (± 300 MB, tergantung bundle)                    | Kecil (± <10 MB)                                          |
+| **Komponen Utama**       | Apache, MariaDB, PHP, Tomcat, FileZilla, Laravel, dsb. | Mini server, dev tools (contoh: serve folder, test PHP)   |
+| **User Interface**       | GUI (visual, tombol start/stop, pengaturan)            | CLI (perintah terminal seperti `awan serve`, `awan php`)  |
+| **Target Pengguna**      | Pengguna Windows yang ingin all-in-one offline server  | Developer Python yang butuh tools ringan dan cepat        |
+| **Fitur Tambahan**       | Shortcut panel, config editor, auto-service monitor    | Terbatas pada fungsi dasar seperti serve folder / port    |
+| **Lisensi**              | Open Source (via GitHub)                               | Open Source (via PyPI)                                    |
+| **Update & Maintenance** | Manual update dari GitHub                              | Otomatis via `pip install --upgrade awan`                 |
+| **Contoh Penggunaan**    | Menjalankan Apache + PHP + MariaDB untuk Laravel       | Menjalankan web server lokal lewat `awan serve`           |
+
+---
+
+### 🔍 Kapan Gunakan Yang Mana?
+
+* **Pilih Awan Server V5** jika:
+
+  * Kamu butuh environment lokal lengkap untuk PHP, Laravel, database, dll.
+  * Kamu pengguna Windows dan lebih nyaman dengan antarmuka GUI.
+  * Kamu ingin server lokal offline yang mirip XAMPP tapi versi open source & Pythonic.
+
+* **Pilih `pip install awan`** jika:
+
+  * Kamu hanya butuh tools ringan seperti web server lokal cepat.
+  * Kamu sering pakai terminal/command line.
+  * Kamu ingin mengotomatisasi proyek Python dengan dev tools minimalis.
+
+---
 
 # Awan Server 9.0
 
