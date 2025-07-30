@@ -190,7 +190,7 @@ graph TD
 
 ## 🆚 Benchmark Results
 
-![Benchmark Chart](benchmark.png)
+![Benchmark Chart](https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/awann.png)
 *Fig 1. Throughput comparison (higher is better)*
 
 ## 💡 Why Choose Awan 10.0?
