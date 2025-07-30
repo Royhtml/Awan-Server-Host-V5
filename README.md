@@ -4,6 +4,22 @@
 
 Here's a comprehensive README.md comparing Awan Server versions, features, algorithms, and competitive analysis:
 
+## Installasi Mini Server And 10.0 Awan Server
+
+### Awan Server Mini
+- pip install awan
+- awan
+
+Running Awan Mini Awan Server ``awan``
+<a href src = "https://pypi.org/project/awan/">Documentasi Pypi Python Mini Awan Server</a>
+
+### Awan Server 10.0
+- pip install awan_server_v5
+- awan_server_v5
+
+Running Awan 10.0 Awan Server ``awan_server_v5``
+<a href src = "https://pypi.org/project/awan-server-v5/">Documentasi Pypi Python Awan Server 10.0</a>
+
 # Awan Server V5 10.0
 
   <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(1).png">
