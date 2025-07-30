@@ -4,6 +4,10 @@
 
 Here's a comprehensive README.md comparing Awan Server versions, features, algorithms, and competitive analysis:
 
+## Setup Tutorials Awan Serve V5 10.0
+
+<img src = "sdd.gif">
+
 ## Installasi Mini Server And 10.0 Awan Server
 
 ### Awan Server Mini
