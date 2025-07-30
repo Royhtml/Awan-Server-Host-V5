@@ -6,12 +6,34 @@ Here's a comprehensive README.md comparing Awan Server versions, features, algor
 
 # Awan Server V5 10.0
 
-<img src = "">
+  <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(1).png">
+
+# ScreenShot Awan Server
+
+<p align="center">
+  <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(1).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(2).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(3).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(4).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(5).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(6).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(7).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(8).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(9).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(10).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(11).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(12).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(13).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(14).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(15).png" width="22%">
+    <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/ss/1%20(16).png" width="22%">
+</p>
+
 
 # Awan Server - Evolution & Competitive Analysis
 
 <p align="center">
-  <img src="awan.ico" alt="Logo" />
+  <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/awan.ico" alt="Logo" />
 </p>
 
 ## 📜 Version History & Evolution
@@ -359,17 +381,17 @@ Berikut adalah perbandingan lengkap antara **Awan Server V5 (Full GUI Version)**
 # Awan Server 9.0
 
 <p align="center">
-  <img src="awan.ico" alt="Logo" />
+  <img src="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/awan.ico" alt="Logo" />
 </p>
 
 
 ## 📦 Awan Server GUI 9.0
 
-<img src ="awamm.png" width = "auto" height ="auto">
+<img src ="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/awamm.png" width = "auto" height ="auto">
 
 ## 📦 pip install awan GUI 9.0
 
-<img src ="Screenshot 2025-07-24 211858.png" width = "auto" height ="auto">
+<img src ="https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/Screenshot%202025-07-24%20211858.png" width = "auto" height ="auto">
 
 <a href ="https://pypi.org/project/awan/#description">Klik License Agreement Python</a>
 
@@ -550,7 +572,7 @@ Panduan ini menjelaskan cara memasang patch aplikasi dan menjalankan server loka
 
 ## Awan Server UI Bacground
 
-<img src = "Screenshot 2025-06-28 181505.png" width = "100%" height = "auto">
+<img src = "https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/Screenshot%202025-06-28%20181505.png" width = "100%" height = "auto">
 
 **Awan Server 5.0** adalah solusi server lokal all-in-one berbasis Windows yang dirancang untuk pengembangan web modern. Paket lengkap ini menggabungkan semua tools essential dalam satu aplikasi dengan antarmuka intuitif, cocok untuk developer dari level pemula hingga profesional.
 
@@ -749,8 +771,8 @@ Sistem akan memberi notifikasi otomatis ketika update tersedia.
 - [Community Forum](https://forum.awanserver.id)
 
 ### Kontak
-- Email: support@awanserver.id
-- Telepon: +62 21 1234 5678
+- Email: dwibakti76@gmail.com
+- Telepon: +62 89652969323
 - Jam Operasional: Senin-Jumat 09:00-17:00 WIB
 
 ---
@@ -790,7 +812,7 @@ The Mermaid diagrams will render automatically on platforms like GitHub that sup
 <hr>
 
   ## Tampilan GUI Design Profesional
-<img src = "Screenshot 2025-06-26 002943.png" width ="100%" height ="auto">
+<img src = "https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/Screenshot%202025-06-26%20002943.png" width ="100%" height ="auto">
 <h2>:rocket: Fitur Utama</h2>
 
 Komponen | Fungsi
@@ -1090,14 +1112,14 @@ Hubungi pengembang melalui:
 ---
 # 📦 Awan Server GUI 3.0
 
-<img src = "Screenshot 2025-06-02 192514.png" width = "100%" height = "100%">
+<img src = "https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/Screenshot%202025-06-02%20192514.png" width = "100%" height = "100%">
 
 <a href ="https://www.tiktok.com/@royhtml/video/7511316331019390264?is_from_webapp=1&sender_device=pc&web_id=7489705398321759751">Klik Video Tutorials Penggunaan 3.0</a>
 
 
 # 📦 Panduan Lengkap Pemasangan Patch & Penggunaan `php server V2.exe` Tanpa XAMPP
 
-<img src = "Desain tanpa judul (1).gif">
+<img src = "https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/Desain%20tanpa%20judul%20(1).gif">
 
 ## tutorial pemasangan 
 
@@ -1326,7 +1348,7 @@ Jika Anda ingin, saya bisa bantu:
 
 ## tutorial tanpa xampp V1
 
-<img src = "instalasi.gif">
+<img src = "https://github.com/Royhtml/Awan-Server-Host-V5/blob/main/instalasi.gif">
 
 1) kunjungi [tags](https://github.com/Royhtml/php-server/releases)
 2) download file .exe , .ico , and php.rar
