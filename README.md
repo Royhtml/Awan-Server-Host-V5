@@ -3,6 +3,7 @@
 <a href = "https://www.mediafire.com/file/jd5incidjibvo2p/xampp.rar/file">Download Full Patch Awan Server Xampp</a>
 
 Here's a comprehensive README.md comparing Awan Server versions, features, algorithms, and competitive analysis:
+<img src = "asli.png">
 
 ## Setup Tutorials Awan Serve V5 10.0
 
