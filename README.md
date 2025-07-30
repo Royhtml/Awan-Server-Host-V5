@@ -12,6 +12,7 @@ Here's a comprehensive README.md comparing Awan Server versions, features, algor
 
 Running Awan Mini Awan Server ``awan``
 <a href src = "https://pypi.org/project/awan/">Documentasi Pypi Python Mini Awan Server</a>
+<img src = "ss.png">
 
 ### Awan Server 10.0
 - pip install awan_server_v5
